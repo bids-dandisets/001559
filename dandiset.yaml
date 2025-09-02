@@ -8,9 +8,30 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 29392009724
+  numberOfFiles: 35
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ImagingPlane
+  - TwoPhotonSeries
+  - OpticalChannel
 citation: Du, Haoyang; Nishimura, Nozomi;  Bizimana, Laurie Anne (2025) In-vivo Cortical
   Recording for eBRIC (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001559/draft
 contributor:
@@ -30,6 +51,7 @@ contributor:
   name: ' Bizimana, Laurie Anne'
   schemaKey: Person
 dateCreated: '2025-08-25T18:06:16.063429+00:00'
+datePublished: '2025-09-02T20:58:29.286613+00:00'
 description: "We recorded calcium dynamics in the somatosensory cortex using the eBRIC
   (enhanced bioluminescent red indicator for Ca2+) sensor. This work have been published
   in An Enhanced Red Bioluminescent Indicator for Responsive Detection of Physiological
@@ -44,6 +66,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001559/versions/draft/assets/
 name: In-vivo Cortical Recording for eBRIC
+publishedBy:
+  endDate: '2025-09-02T20:58:29.286613+00:00'
+  id: urn:uuid:99fa5972-587f-4de5-8a08-8b9c8a411650
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-09-02T20:58:29.286613+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:26882da6-4aa1-459c-9c4d-0ece15314c8e
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
